@@ -1,0 +1,49 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98.3vh;
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2017/12/29/christmas-day-weather-over-terranora-australia-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    padding: 50px;
+    border-radius: 12px;
+    /* background-color: white; */
+    width: 550px;
+    height: 300px;
+    padding-bottom: 100px;
+}
+.input{
+    padding: 15px 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: white;
+    border-style: none;
+    outline: none;
+}
+.city{
+    color:wheat;
+    font-size: 54px;
+}
+.country{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.deg{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.speed{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.desc{color: white;font-size: 18px;}
